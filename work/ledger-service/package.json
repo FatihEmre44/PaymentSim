@@ -1,0 +1,17 @@
+{
+  "name": "ledger-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ledger reserveFunds use case for the payment simulation",
+  "scripts": {
+    "start": "node src/index.js",
+    "db:check": "node src/check-db-connection.js",
+    "test": "node --test test/*.test.js",
+    "test:integration": "node scripts/test-postgres.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "pg": "^8.16.3"
+  }
+}

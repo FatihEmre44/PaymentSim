@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+.env
+.env.*
+!.env.example
+backups/
+.test-runtime/
+npm-debug.log*

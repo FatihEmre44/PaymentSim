@@ -1,0 +1,20 @@
+{
+  "name": "payment-simulation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Payment orchestration simulator starter",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "db:check": "node src/check-db-connection.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
